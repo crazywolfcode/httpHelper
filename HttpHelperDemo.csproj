@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HttpHelper, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\httpapihelper.1.0.1\lib\netstandard2.0\HttpHelper.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -99,12 +102,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HttpHelper\HttpHelper.csproj">
-      <Project>{e29bc770-c11e-4c4a-95ed-b91dc33851f0}</Project>
-      <Name>HttpHelper</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="zfb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="import.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
