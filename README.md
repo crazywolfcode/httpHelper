@@ -9,7 +9,7 @@
   * 只支持返回类型为 json 的请求
   * .SetHeaders() 该方法不必须，为满足需要认证和请求头信息的请求而设
   * .OnStart() 、.OnSuccess、.OnFailure()、.OnError() 这些方法不必须，与顺序无关。
-  * .OnSuccess、.OnFailure()、.OnError() 这些方法不必须，与顺序无关，互斥，只会调用其中一个。
+  * .OnSuccess、.OnFailure()、.OnError() 互斥，只会调用其中一个。
   
 ## 使用
 
@@ -20,6 +20,28 @@ Step 1：在nuget上添加对 httpapihelper 的引用或搜索 httpapihelper;;
 Step 2：使用
   * GET 用法
   ```
+  //简单用法
+   public void TestGet()
+        {
+            string url = "http://127.0.0.1:8080/nbm/login/test";
+            HttpWebRequestHelper<List<User>>.Instance              
+                .OnSuccess((result) =>
+                {
+                    Console.WriteLine("Success ...");
+                    List<User> Users = result.Data;
+                    for (int i = 0; i < Users.Count; i++)
+                    {
+                        User m = Users[i];
+                        Console.WriteLine("name:" + m.name + " age :" + m.age);
+                    }
+                })
+                .Get(url); 
+              
+        }
+  ```
+  
+  ```
+  //基本用法
        public void TestGet()
         {
             string url = "http://127.0.0.1:8080/nbm/login/test";
