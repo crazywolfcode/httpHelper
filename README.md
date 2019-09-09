@@ -16,8 +16,10 @@
 ## 使用
 
 Step 1：在nuget上添加对 httpapihelper 的引用或搜索 httpapihelper;; 
-![import](https://raw.githubusercontent.com/crazywolfcode/httpHelper/master/import.png)
+
 ```Install-Package httpapihelper```
+
+![import](https://raw.githubusercontent.com/crazywolfcode/httpHelper/master/import.png)
 
 Step 2：添加引用 
   ```
