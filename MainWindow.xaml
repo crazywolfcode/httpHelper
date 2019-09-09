@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HttpHelperDemo"
         mc:Ignorable="d"
+        Loaded="Window_Loaded"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
-    </Grid>
+        <WrapPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="test Generic" x:Name="Generic" Click="Generic_Click" Margin="10"></Button>
+            <Button Content="test null" x:Name="Btn1" Click="Btn1_Click" Margin="10"></Button>
+        </WrapPanel>
+
+  </Grid>
 </Window>
