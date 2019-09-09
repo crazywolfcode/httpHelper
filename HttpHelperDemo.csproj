@@ -107,5 +107,11 @@
   <ItemGroup>
     <Resource Include="logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="wxRevard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="zfb.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
