@@ -7,11 +7,11 @@
 
 ## 使用
 
-Step 1：Add a reference to HandyControl or search for HandyControl on the nuget; 
+Step 1：在nuget上添加对 httpHelper的引用或搜索 httpHelper;; 
 
-```Install-Package HandyControl```
+```Install-Package httpHelper```
 
-Step 2：Add code in App.xaml as follows:
+Step 2：
 
 
 ### 捐赠
