@@ -10,6 +10,7 @@
   * .SetHeaders() 该方法不必须，为满足需要认证和请求头信息的请求而设
   * .OnStart() 、.OnSuccess、.OnFailure()、.OnError() 这些方法不必须，与顺序无关。
   * .OnSuccess、.OnFailure()、.OnError() 互斥，只会调用其中一个。
+  * 默认带Cookies 请求。
   
 ## 使用
 
