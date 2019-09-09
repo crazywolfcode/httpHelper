@@ -8,9 +8,9 @@
         Loaded="Window_Loaded"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <WrapPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="test Generic" x:Name="Generic" Click="Generic_Click" Margin="10"></Button>
-            <Button Content="test null" x:Name="Btn1" Click="Btn1_Click" Margin="10"></Button>
+        <WrapPanel  HorizontalAlignment="Center" VerticalAlignment="Center">          
+            <Button Content="test Post" x:Name="btn1" Click="Btn1_Click" Margin="10"></Button>
+            <Button Content="test Get" x:Name="btn2" Click="Btn2_Click" Margin="10"></Button>
         </WrapPanel>
 
   </Grid>
