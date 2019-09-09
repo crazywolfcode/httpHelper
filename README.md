@@ -7,9 +7,9 @@
 
 ## 使用
 
-Step 1：在nuget上添加对 httpHelper的引用或搜索 httpHelper;; 
+Step 1：在nuget上添加对 httpapihelper 的引用或搜索 httpapihelper;; 
 
-```Install-Package httpHelper```
+```Install-Package httpapihelper```
 
 Step 2：
 
