@@ -5,6 +5,14 @@
 # httpHelper
 基于 System.Net.HttpWebRequest 封装，方便，易用；引用函数式编程思想，让代码更加的优雅，高可读性。
 
+## 使用
+
+Step 1：Add a reference to HandyControl or search for HandyControl on the nuget; 
+
+```Install-Package HandyControl```
+
+Step 2：Add code in App.xaml as follows:
+
 
 ### 捐赠
 如果您觉得httpHelper还不错，并且刚好有些闲钱，那么可以选择以下方式来捐赠：
