@@ -16,11 +16,15 @@
 ## 使用
 
 Step 1：在nuget上添加对 httpapihelper 的引用或搜索 httpapihelper;; 
-
+![import](https://raw.githubusercontent.com/crazywolfcode/httpHelper/master/import.png)
 ```Install-Package httpapihelper```
 
-Step 2：使用
-  * GET 用法
+Step 2：添加引用 
+  ```
+  using HttpApiHelper;
+  ```
+
+Step 3：使用 * GET 用法
   ```
   //简单用法
    public void TestGet()
