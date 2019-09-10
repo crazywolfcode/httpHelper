@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Text;
 using Newtonsoft.Json;
-namespace HttpHelper
+using HttpHelper;
+namespace HttpHelperDemo
 {
     public class Test
     {
@@ -20,7 +21,7 @@ namespace HttpHelper
            {
                {"token","qmfamdfasdfm" }
            };
-            User user = new User() { name = "code", age = 90, salary = 89.09 };
+           User user = new User() { name = "code", age = 90, salary = 89.09 };
 
             HttpWebRequestHelper<List<User>>.Instance
                   .OnStart(() =>

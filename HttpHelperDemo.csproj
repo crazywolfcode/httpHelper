@@ -61,7 +61,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="test\Genericity.cs" />
     <Compile Include="test\Test.cs" />
     <Compile Include="test\User.cs" />
     <Page Include="MainWindow.xaml">

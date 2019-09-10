@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HttpHelper
+namespace HttpHelperDemo
 {
   public  class User
     {
