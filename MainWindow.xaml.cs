@@ -29,7 +29,7 @@ namespace HttpHelperDemo
         
         private void Btn1_Click(object sender, RoutedEventArgs e)
         {
-            new Test().TestPost();
+            HttpWebRequestHelper<User>.Instance.OnStart().OnStart()
         }
 
         private void Btn2_Click(object sender, RoutedEventArgs e)
