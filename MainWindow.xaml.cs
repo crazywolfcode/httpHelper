@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using HttpHelper;
+
 
 namespace HttpHelperDemo
 {
@@ -29,7 +29,7 @@ namespace HttpHelperDemo
         
         private void Btn1_Click(object sender, RoutedEventArgs e)
         {
-            new Test().TestGet();
+            new Test().TestPost();
         }
 
         private void Btn2_Click(object sender, RoutedEventArgs e)

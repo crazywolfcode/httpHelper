@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Text;
-using Newtonsoft.Json;
-using HttpHelper;
+using HttpApiHelper;
 namespace HttpHelperDemo
 {
     public class Test
@@ -21,7 +19,7 @@ namespace HttpHelperDemo
            {
                {"token","qmfamdfasdfm" }
            };
-           User user = new User() { name = "code", age = 90, salary = 89.09 };
+            User user = new User() { name = "code", age = 90, salary = 89.09 };
 
             HttpWebRequestHelper<List<User>>.Instance
                   .OnStart(() =>
@@ -78,7 +76,7 @@ namespace HttpHelperDemo
                 })
                 .OnError((res) =>
                 {
-                    Console.WriteLine("Error ..code:+" + res.Code + "...msc:" + res.Message);
+                    Console.WriteLine("Error ..code:+" + res.Code + "... msc:" + res.Message);
                 })
                 .Get(url); //不需要传参
                            //.Get(url, "name=code&age=56"); // 带参数

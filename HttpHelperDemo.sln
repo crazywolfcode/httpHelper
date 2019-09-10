@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHelperDemo", "HttpHelperDemo.csproj", "{DDEB88CE-21D2-44A7-BAA9-0DDC5AD02F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHelper", "..\HttpHelper\HttpHelper.csproj", "{E29BC770-C11E-4C4A-95ED-B91DC33851F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpHelper", "..\HttpHelper\HttpHelper.csproj", "{E29BC770-C11E-4C4A-95ED-B91DC33851F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{CFC5F94C-BD42-4348-91B2-5D4046DAB094}"
 EndProject
